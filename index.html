@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Practico n° 8</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Roboto+Mono:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <a href="#"><img class="logo" src="./imagenes/web full stack.png" alt="Logo"></a>
+        <nav>
+            <input type="checkbox" name="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon-action">
+            <div class='bx bx-menu' id="menu-icon"></div>
+        </label>
+            <ul class="navlist">
+                <li><a href="#">Home</a></li>
+                <li><a href="#section-1">Sobre mí</a></li>
+                <li><a href="#section-2">Proyectos</a></li>
+                <li><a href="#section-3">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+
+            <h1>hola, Soy <b>Juan</b> estudiante de desarrollo Web en Fundación Formar </h1>
+
+            <a href="#">CV</a>
+
+        </div>
+
+        <div class="hero-img">
+            <img src="./imagenes/Foto.png" alt="foto personal">
+        </div>
+
+    </section>
+    <section class="section-yo" id="section-1">
+        <h1>Sobre mi</h1>
+        <p>Hola, soy Juan Bazan, un estudiante apasionado por el desarrollo web y actualmente becado en un programa que
+            me ha permitido profundizar en este fascinante campo. Fui seleccionado a través de un riguroso proceso de
+            selección, lo que me motiva aún más a aprovechar al máximo esta oportunidad y crecer profesionalmente. Cada
+            día, me esfuerzo por aprender algo nuevo y mejorar mis habilidades. Estoy emocionado por el futuro y por las
+            posibilidades que se abren ante mí en el mundo digital. ¡Espero poder compartir mis proyectos y
+            aprendizajes!</p>
+        <div class="icon-dev">
+            <i class="ri-html5-fill"></i>
+            <i class="ri-css3-fill"></i>
+            <i class="ri-javascript-line"></i>
+        </div>
+    </section>
+
+    <div class="Proyecto-h1" id="section-2">
+        <h1>Mis Proyectos Personales</h1>
+        <p>Explora algunos de los proyectos en los que he trabajado.</p>
+    </div>
+    <section class="proyectos">
+        <article class="proyecto">
+            <img src="./imagenes/ML.PNG" alt="imagen de Proyecto 1">
+            <div class="burbuja">Creación y diseño de la pagina MercadoLiebre</div>
+        </article>
+        <article class="proyecto">
+            <img src="./imagenes/Monitoreo.PNG" alt="imagen de Proyecto 2">
+            <div class="burbuja">Servidor de monitoreo por icmp creado en Python</div>
+        </article>
+
+    </section>
+    <div class="Proyecto-h1">
+        <h1>Contacto</h1>
+    </div>
+    <section class="section-formulario" id="section-3">
+        <article class="formulario">
+            <form>
+                <label for="name">Nombre</label>
+                <input type="text" id="name">
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email">
+
+                <label for="number">Numero de telefono</label>
+                <input type="number" id="numero">
+
+                <label for="asunto">Asunto</label>
+                <select id="asunto">
+                    <option>Trabajo</option>
+                    <option>Sugerencias</option>
+
+                </select>
+                <label for="message">Mensaje</label>
+                <textarea id="message" placeholder="Deja tu mensaje acá"></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </article>
+    </section>
+    <div class="icons">
+        <a href="#"><i class="ri-instagram-line"></i></a>
+        <a href="#"><i class="ri-linkedin-box-fill"></i></a>
+        <a href="https://github.com/jbazan88/MercadoLiebre.git" target="_blank"><i class="ri-github-fill"></i></a>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
